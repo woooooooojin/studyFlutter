@@ -112,7 +112,7 @@ class App extends StatelessWidget {
                 const SizedBox(
                   height: 20,
                 ),
-                const CurrencyCart(
+                const CurrencyCard(
                   name: 'Euro',
                   code: 'EUR',
                   amount: '6 458',
@@ -120,7 +120,7 @@ class App extends StatelessWidget {
                   isInverted: false,
                   order: 0,
                 ),
-                const CurrencyCart(
+                const CurrencyCard(
                   name: 'BitCoin',
                   code: 'BTC',
                   amount: '9 768',
@@ -128,7 +128,7 @@ class App extends StatelessWidget {
                   isInverted: true,
                   order: -20,
                 ),
-                const CurrencyCart(
+                const CurrencyCard(
                   name: 'Dollor',
                   code: 'USD',
                   amount: '768',
